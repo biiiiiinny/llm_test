@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # 1. API 키 설정 (본인의 API 키로 교체)
-genai.configure(api_key="AIzaSyCQNHGgCf-w0bI62L0YHL_Ae6ysWgoGEMg")
+genai.configure(api_key="")
 
 # 2. 모델 설정
 model = genai.GenerativeModel('gemini-2.5-flash-lite')
